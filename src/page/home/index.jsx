@@ -1,8 +1,12 @@
 import React from 'react'
 
-export default () => (
-  <div>
-    <h1>Welcome to my world!</h1>
-  </div>
-)
+const Home = () => {
+  return (
+    <div>
+      <h1>Welcome to my world!</h1>
+    </div>
+  );
+}
+
+export default Home
 export const __AUTO_ROUTE = true;

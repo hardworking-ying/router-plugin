@@ -1,9 +1,12 @@
 import React from 'react'
 
-export default () => (
-  <div>
-    <h1>This is my profile!</h1>
-  </div>
-)
-
+const Profile =  () => {
+  return (
+    <div>
+      <h1>This is my profile!</h1>
+    </div>
+  );
+}
+  
+export default Profile
 export const __AUTO_ROUTE = true
